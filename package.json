@@ -1,0 +1,20 @@
+{
+  "name": "the_acme_reservation_planner",
+  "version": "1.0.0",
+  "description": "Block 34: The Acme Reservation Planner",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server",
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "uuid": "^11.1.0"
+  }
+}
